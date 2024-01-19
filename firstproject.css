@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: o;
+box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+margin-left: 30px;
+background-color: rgb(138, 104, 54);
+}
+
+a{
+    color: purple;
+}
+
+a:visited{
+color: red;
+}
+
+a:hover, a:active{
+    color: blue;
+}
+
+table, tr, th,td, caption{
+    border: 3px solid rgb(12, 4, 52);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+fieldset{
+    width: fit-content;
+}

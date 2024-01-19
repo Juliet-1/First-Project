@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Html Project</title>
+    <link rel="stylesheet" href="firstproject.css">
+</head>
+
+<body>
+    
+    <header>
+           <h1>My goals for the year</h1>
+         <nav>
+    <ul>
+        <li><a href="#html">Learning Html</a></li>
+        <li><a href="#vacation">Planing a vacation</a></li>
+        <li><a href="#Contact">Contact Me</a></li>
+
+    </ul>
+          </nav>
+    </header>
+    <hr>
+    <main>
+       <article id="html">
+    <h2>I am ready to learn Html</h2>
+    <p>This is my first web-page.</p>
+
+      <section>
+      <h3>HTML</h3>
+          <img src="bishop alex.jpg" alt="My bishop" title="Bishop Alex" width="300" height="300">
+    
+    <figure>
+        <figcaption>Bishop Alex Image </figcaption>
+        <p>
+            <code>&lt;h1&gt;Bishop Alex &lt;/h1&gt; </code>
+        </p>
+    </figure>
+
+    </section>
+    <section>
+    <h3>My daily schedule</h3>
+    <p>let me tell you how:
+
+    <ol>
+        <li>....I learn more about web dev</li>
+        <li>....I plan out my schedule</li>
+        <li>....I use resourses from <abbr title="Mozilla Developer Network">
+        <a href="https://developer.mozilla.org/">MDN</a>
+        </abbr>.</li>
+
+    </ol>
+    <aside>
+        <details>
+            <summary>Guess the <mark>number of hours</mark> i code every day</summary>
+            <p>
+                I start at <time datetime="08.00">8.am</time> 
+                and i write code for <time datetime="PT3H">3hours</time>every morning
+             </p>
+        </details>
+    </aside>
+    <br>
+    <table>
+        <caption>My daily schedule</caption>
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <th scope="row">Morning</th>
+            <td>
+                <time datetime="08.00">8am</time>--<time datetime="11.00">11am</time>
+            </td>
+            <td>Write code</td>
+        </tr>
+        <tr>
+            <th scope="row">Break</th>
+            <td>
+                <time datetime="11.00">11am</time>--<time datetime="12.00">12pm</time>
+            </td>
+            <td>Eat Lunch</td>
+        </tr>
+        <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+                <time datetime="12.00">12pm</time>--<time datetime="17.00">5pm</time>
+            </td>
+            <td>Study for other courses</td>
+        </tr>
+        <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All other times</td>
+            <td>Free time</td>
+        </tr>
+        <tr>
+            <th scope="row">Night</th>
+            <td>Sleep</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">And that's what i do everyday, 
+                5 days a week.Just eat,sleep,code..and recharge!</td>
+            </tr>
+        </tfoot>
+    </table>
+    </section>
+       </article>
+
+<hr>
+
+          <article id="vacation">
+    <h2>I Am Also planning a vacation</h2>
+    <p>I have been working hard and really<em>really need a gateaway.</em>
+    </p>
+    <p>I live in <abbr title="Kansas">KS</abbr> so i want to visit a beach</p>
+      <section>
+    <h3>Places I'd like to visit</h3>
+    
+    <ul>
+        <li>
+            <p>I've heard good things about caribeans</p>
+        </li>
+
+             <figure>
+                   <img src="rev peter2.jpg" alt="Rev Peter" title="Loyalty House" width="300" height="300">
+                <figcaption>
+                      Rev peter Okereke
+                </figcaption>
+             </figure>
+        <li>
+            <P>I've heard good thing about going here:</P>
+        </li>
+        <address>
+            Margaritative Island Reserve Riviera Cancun<br>
+            Bahia Petempich Puerto Morelos,Mexico<br>
+            colonia Morelos,Mexico 77580
+        </address>
+
+        <figure>
+            <img src="pastor kell1.jpg" alt="Pastor Kell" title="Paster Kell Okereke">
+            <figcaption>
+                Pastor Kell Okereke
+            </figcaption>
+        </figure>
+
+    </ul>
+     </section>
+    <!--TODO: Add more places-->
+    <section>
+    <h3>Places i want to Avoid</h3>
+    <dl>
+        <dt>North pole</dt>
+        <dd>I hear this is <strong>cold</strong>!</dd>
+
+        <dt>South Pole</dt>
+        <dd>This is also cold.</dd>
+
+        <dt>Mountain Tops</dt>
+        <dd>These are also cold.</dd>
+    </dl>
+    </section>
+        </article>
+
+        <hr>
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>I'd really like to hear from you!</p>
+
+            <form action="https//httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Persona Information</legend>
+                        <p>
+                            <label for="firstname">First Name:</label>
+                            <input type="text" name="firstName" id="firstName" 
+                            placeholder="Juliet" autocomplete="on" required ="on" autofocus>
+                             <br> 
+                             </p>
+                               <p>
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" name="lasttName" id="lastName" 
+                            placeholder="Amara" autocomplete="on" required>
+                            </p>
+            
+                            <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" 
+                            placeholder="Your Secret" required>
+                            </p>
+                            <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone" 
+                            placeholder="5555-5555-555" pattern="[0-10]{4}-[0-10]{4}-[0-10]{3}" 
+                            required ="on" maxlength="11">
+                            </p>
+                            <p>
+                               <label for="decade">Favourite Decade:</label>
+                              <input type="number" name="dacade" id="decade" 
+                               min="1950" max="2020" step="10" value="1980">
+                            </p>
+                            <p>
+                                <label for="Cofee">Favourite Cofee:</label>
+                                <select name="cofee" id=""cofee>
+                                    <optgroup label="Cofees">
+                                       <option value="regular cofee">Regular Cofee</option>
+                                       <option value="iced cofee" selected>Iced Cofee</option>
+                                    </optgroup>
+                                       <optgroup label="Espresso Drinks">
+                                       <option value="latte">Latte</option>
+                                       <option value="cappuccino">Cappuccino</option>
+                                       <option value="cortado">Cortado</option>
+                                       <option value="americano">Americano</option>
+                                    </optgroup>
+                                       <option value="other">Other</option>
+                                </select>
+                            </p>
+                            <p>
+                            <!--The form below is another way to present the above form-->
+                            <label for="Cofee">Favourite Cofee:</label>
+                            <input type="text" name="coffee" id="coffee" list="coffee-list">
+                                <datalist id="coffee-list">
+                                    <option value="coffee">
+                                    <option value="espresso">
+                                    <option value="latte">
+                                    <option value="cortado">
+                                    <option value="americano">
+                                    <option value="other">
+                                <datalist
+                            </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>What is your favourite food?</legend>
+                    <p>
+                        <input type="radio" name="food" id="tacos" value="tacoa">
+                        <label for="tacos">Tacos</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza" value="pizza">
+                        <label for="pizza">Pizza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="other" value="other">
+                        <label for="other">Other</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Do you have pets?</legend>
+                    <p>
+                        <input type="checkbox" name="pets" id="dog" value="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="cat" value="cat">
+                        <label for="cat">Cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="fish" value="fish">
+                        <label for="fish">Fish</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="otherpets" value="otherpets">
+                        <label for="otherpets">Other</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Send me a note</legend>
+                    <label for="message">Your message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" 
+                    placeholder="Type Your Message Here"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button type="submit" formaction="https://httpgoogle.com/post" formmethod="post">Post</button>
+            </form>
+        </article>
+     </main>
+
+   <hr>
+   <footer>
+              <p>
+                  &lt;&lt;&lt; &copy; <a href="about.html">Amara Juliet </a>&gt;&gt;&gt;
+              </p>
+         <p>
+             <a href="#">Back to top</a>
+         </p>
+    </footer>
+</body>
+
+</html>
